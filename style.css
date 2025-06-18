@@ -55,3 +55,42 @@ button:hover {
   background: #28a745;
   color: white;
 }
+
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #007acc;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.dark {
+  background: #111;
+}
+
+body.dark .calculator {
+  background: #222;
+  color: white;
+}
+
+body.dark .display {
+  background: #000;
+  color: #0f0;
+}
+
+body.dark button {
+  background: #333;
+  color: white;
+}
+
+body.dark .equals {
+  background: #006400;
+}
+
+.display {
+  transition: all 0.3s ease;
+}
